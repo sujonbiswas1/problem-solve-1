@@ -20,10 +20,10 @@ console.log(firstName + ' ' + ' ' +lastName + ' ' + age); //output is John Deo 3
 // //3 . Use the correct assignment operator that will 
 // // result in x being 50 (same as x = x * y). 
 
-x = 10;
-y = 5;
-x = x*y; // what will be the value of x ? 
-console.log(x) //output is 50
+let x = 10;
+let y = 5;
+let x0 = x*y; // what will be the value of x ? 
+console.log(x0) //output is 50
 
 
 
@@ -34,12 +34,12 @@ console.log(x) //output is 50
 let length = 16; // data type ? 
 let lastName1 = "Johnson"; // data type ? 
 
-const x = {
+const x1 = {
   firstName: "John",  
   lastName: "Doe"
 };    // object ? 
 
-console.log( typeof x)
+console.log( typeof x1)
 
 
 // 5 . Execute the function named myFunction.
@@ -109,18 +109,18 @@ console.log(squareNum)
 
 
 // 10. Choose the correct comparison operator to alert true, when x is greater than y. 
-x = 10;
+x2 = 10;
 y = 5;
 
-alert(x>y) // true? 
+alert(x2>y) // true? 
 
 
 
 
 // //  Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".
 
-let age = 19;
-age<18 ? alert('Too young'):alert('Old enough') //output is = old enough
+let age1 = 19;
+age1<18 ? alert('Too young'):alert('Old enough') //output is = old enough
 
 
 
